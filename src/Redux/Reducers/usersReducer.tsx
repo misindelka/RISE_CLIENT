@@ -1,6 +1,6 @@
 /* eslint-disable consistent-return */
 import { ADD_USER } from '../../constants/actionTypes';
-import { IUser } from '../../types/types';
+import { IUser } from '../../Types/types';
 
 const initialStateValue = {
 	users: [],
