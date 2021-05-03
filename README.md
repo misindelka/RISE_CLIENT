@@ -1,6 +1,6 @@
 ## Z Ríše Zeleniny
 
-Is vegetable sellers eshop, build on REACT JS, MONGO DB and STRAPI CMS
+Vegetable sellers eshop, build on REACT JS, MONGO DB and STRAPI CMS
 
 Notice: project is still in development version with possible issues and bugs.
 
