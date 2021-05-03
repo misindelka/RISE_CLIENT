@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import { countFinalPrice } from '../../../Redux/Actions/boxActions';
-import { IProductTypes } from '../../../types/types';
+import { IProductTypes } from '../../../Types/types';
 import BoxBar from '../boxBar';
 import SummaryTable from './summaryTable';
 import { Paper, ContentWrapper, LinkTo } from '../../../styles/components';

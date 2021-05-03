@@ -6,7 +6,7 @@ import Tippy from '@tippy.js/react';
 import 'tippy.js/dist/tippy.css';
 import { useTranslation } from 'react-i18next';
 import { HowerWrapper } from '../../../styles/components';
-import { IProductTypes } from '../../../types/types';
+import { IProductTypes } from '../../../Types/types';
 import { Column, Row, ProductImage } from '../styles/boxComponents';
 import {
 	boxLessOfProduct,

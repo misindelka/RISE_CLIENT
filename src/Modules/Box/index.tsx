@@ -8,7 +8,7 @@ import {
 	decreaseAmount,
 	countFinalPrice,
 } from '../../Redux/Actions/boxActions';
-import { IProductTypes } from '../../types/types';
+import { IProductTypes } from '../../Types/types';
 import BoxBar from './boxBar';
 import BoxIsEmpty from './BoxIsEmpty/index';
 import ShoppingBox from './ShoppingBox/index';
