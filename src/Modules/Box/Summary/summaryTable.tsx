@@ -1,7 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { IProductTypes } from '../../../types/types';
+import { IProductTypes } from '../../../Types/types';
 
 import { Row, Column, ProductImage } from '../styles/boxComponents';
 

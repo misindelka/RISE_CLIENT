@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { IoCloseSharp } from 'react-icons/io5';
-import { IProductTypes } from '../../../types/types';
+import { IProductTypes } from '../../../Types/types';
 import { Paper, RowWrapper } from '../../../styles/components';
 
 const DetailCard = styled.div`

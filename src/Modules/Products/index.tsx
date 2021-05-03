@@ -12,7 +12,7 @@ import {
 	ProductsWrapper,
 	ContentContainer,
 } from '../styles/modulesComponents';
-import { IProductTypes, TAddToBox } from '../../types/types';
+import { IProductTypes, TAddToBox } from '../../Types/types';
 import { addToBox } from '../../Redux/Actions/boxActions';
 
 interface IProps {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
-import { IUser } from '../../../types/types';
+import { IUser } from '../../../Types/types';
 import { LinkTo } from '../../../styles/components';
 import { NavContainer, Row } from '../../styles/modulesComponents';
 

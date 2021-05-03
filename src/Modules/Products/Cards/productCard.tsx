@@ -6,7 +6,7 @@ import Tippy from '@tippy.js/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import 'tippy.js/dist/tippy.css';
 import ProductDetail from './productDetail';
-import { IProductTypes, TAddToBox } from '../../../types/types';
+import { IProductTypes, TAddToBox } from '../../../Types/types';
 import { addToBoxButton, productIsInBox } from '../../../tippy/labels';
 
 const iconUrl = `${process.env.PUBLIC_URL}/assets/box.png`;

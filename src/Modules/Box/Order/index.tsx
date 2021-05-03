@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import OrderFrom from './orderForm';
 import { countFinalPrice } from '../../../Redux/Actions/boxActions';
 import { addUser } from '../../../Redux/Actions/usersActions';
-import { IUser } from '../../../types/types';
+import { IUser } from '../../../Types/types';
 import BoxBar from '../boxBar';
 import { Paper, ContentWrapper } from '../../../styles/components';
 import { ShopWrapper } from '../../styles/modulesComponents';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { IoChevronDownOutline, IoChevronUpOutline } from 'react-icons/io5';
-import { IFaq } from '../../types/types';
+import { IFaq } from '../../Types/types';
 
 const FaqCard = styled.div`
 	background: ${(props) => props.theme.modalTransparentGrey};
