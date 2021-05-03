@@ -8,8 +8,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### to poperely run this app: 
 
-clone, install and run server from: https://github.com/misindelka/RISE_BACKEND
-clone, install and run CMS from: https://github.com/misindelka/RISE_CMS
+Clone, install and run server from: https://github.com/misindelka/RISE_BACKEND
+
+Clone, install and run CMS from: https://github.com/misindelka/RISE_CMS
  
 
 
