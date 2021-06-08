@@ -21,7 +21,7 @@ Clone, install and run client from: https://github.com/misindelka/RISE_CLIENT
 
 Use : yarn start
 
-To run the app in the development mode.\
+To run the app in the development mode :
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
