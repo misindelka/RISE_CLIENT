@@ -4,7 +4,10 @@ Vegetable sellers eshop, build on REACT JS, MONGO DB and STRAPI CMS
 
 Notice: project is still in development version with possible issues and bugs.
 
+Known issues: Typescript implementation is incomplete, authentification still in development, in some parts issues with resposive UI.
+
 ### To install all dependecies:
+
  Use :  yarn 
 
 ## To run application:
@@ -12,6 +15,9 @@ Notice: project is still in development version with possible issues and bugs.
 Clone, install and run server from: https://github.com/misindelka/RISE_BACKEND
 
 Clone, install and run CMS from: https://github.com/misindelka/RISE_CMS
+
+Clone, install and run client from: https://github.com/misindelka/RISE_CLIENT
+
 
 Use : yarn start
 
