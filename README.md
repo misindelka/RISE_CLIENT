@@ -4,7 +4,7 @@ Vegetable sellers eshop, build on REACT JS, MONGO DB and STRAPI CMS
 
 Notice: project is still in development version with possible issues and bugs.
 
-Known issues: Typescript implementation is incomplete, authentification still in development, in some parts issues with resposive UI.
+Known issues: Typescript implementation is incomplete, authentification still in development, in some parts issues with responsive UI.
 
 ### To install all dependecies:
 
