@@ -23,6 +23,7 @@ export const secondaryFontSize = '18px';
 export const primaryOpacity = 0.9;
 
 // Paddings
+
 export const primaryPadding = '15px';
 export const secondaryPadding = '10px';
 export const smallPadding = '5px;';

@@ -1,3 +1,3 @@
-export const productsApi = 'http://localhost:4000/products';
-export const categoriesApi = 'http://localhost:4000/rise/categories';
-export const usersApi = 'https://locahost:4000/rise/users';
+export const productsApi = 'https://rise-back-end.herokuapp.com/products';
+export const categoriesApi = 'https://rise-back-end.herokuapp.com/rise/categories';
+export const usersApi = 'https://rise-back-end.herokuapp.com/rise/users';

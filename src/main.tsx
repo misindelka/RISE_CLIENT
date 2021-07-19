@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import { useDispatch } from 'react-redux';
 import Footer from './Footer';
-import GlobalStyle from './styles/globalStyle';
 import routes from './router';
 
 import Header from './Header/index';
 import { getProducts } from './Redux/Actions/productsActions';
 import Home from './Pages/Home';
+import GlobalStyle from './styles/globalStyle';
 
 const Main = () => {
 	const dispatch = useDispatch();
