@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ContentWrapper, Paper, PageWrapper } from '../../styles/components';
 import { aboutApi } from '../../api/pagesApis';
+	
 
 const About: React.FC = () => {
 	const [data, setData] = useState<any>([]);

@@ -1,4 +1,5 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+// Products
+
 export interface IProductTypes {
 	map: any;
 	[x: string]: unknown;
@@ -20,8 +21,8 @@ export interface IBoxColumns {
 	label: string;
 	fieldName: string;
 }
-// eslint-disable-next-line no-unused-expressions
-[];
+
+
 
 export interface ItableConfig {
 	columns: {
@@ -51,6 +52,8 @@ export interface ISubmitedUser {
 	email: string;
 	password: string;
 }
+
+
 
 export interface IFaq {
 	id: string;
