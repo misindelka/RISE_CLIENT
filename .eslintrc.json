@@ -1,27 +1,72 @@
 {
-  "parser": "@babel/eslint-parser",
-  "env": {
-    "browser": true
+  "env":{
+     "browser":true,
+     "es2021":true
   },
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "plugin:prettier/recommended"
+  "extends":[
+   "prettier"
   ],
-  "rules": {
-    "prettier/prettier": "error",
-    "arrow-body-style": "off",
-    "no-console": ["warn", { "allow": ["warn", "error"] }],
-    "no-unused-vars": ["error", { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_", "ignoreRestSiblings": false }],
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": [
-      "error",
+  "parser":"@typescript-eslint/parser",
+  "parserOptions":{
+     "ecmaFeatures":{
+        "jsx":true
+     },
+     "ecmaVersion":12,
+     "sourceType":"module"
+  },
+  "plugins":[
+     "react",
+     "@typescript-eslint",
+     "react-hooks"
+  ],
+  "rules":{
+
+   "import/no-extraneous-dependencies":
+    ["off", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}],
+
+   "import/extensions": [
+      "off",
+      "ignorePackages",
       {
-        "devDependencies": true
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
       }
-    ],
-    "react/no-unescaped-entities": "off",
-    "react/require-default-props": "off",
-    "react/jsx-props-no-spreading": "off"
+   ],
+   "react/jsx-filename-extension": [1, { "extensions": [".js", ".ts", "tsx"] }],
+     "no-use-before-define":"off",
+     "@typescript-eslint/no-use-before-define":[
+        "error"
+     ],
+   
+  
+     "no-shadow":"off",
+     "@typescript-eslint/no-shadow":[
+        "error"
+     ],
+     "@typescript-eslint/explicit-function-return-type":[
+        "off",
+        {
+           "allowExpressions":true
+        }
+     ],
+     "max-len":[
+        "warn",
+        {
+           "code":100
+        }
+     ],
+     "react-hooks/rules-of-hooks":"error",
+     "react-hooks/exhaustive-deps":"warn",
+     "import/prefer-default-export":"off",
+     "react/prop-types":"off"
+  },
+  "settings":{
+     "import/resolver":{
+        "typescript":{
+           
+        }
+     }
   }
 }
