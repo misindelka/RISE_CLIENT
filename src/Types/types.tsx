@@ -1,8 +1,8 @@
 // Products
 
 export interface IProductTypes {
+    products: any
     map: any
-    [x: string]: unknown
     _id: number
     name: string
     slug: string
