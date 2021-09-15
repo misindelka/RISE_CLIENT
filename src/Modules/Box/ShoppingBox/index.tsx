@@ -6,7 +6,7 @@ import 'tippy.js/dist/tippy.css'
 import { useTranslation } from 'react-i18next'
 import { HowerWrapper } from '../../../styles/components'
 import { IProductTypes } from '../../../Types/types'
-import { Column, Row, ProductImage } from '../styles/boxComponents'
+import { Column, Row, LabelRow, ProductImage } from '../styles/boxComponents'
 import { boxLessOfProduct, boxMoreOfProduct, boxRemoveProduct } from '../../../tippy/labels'
 
 interface IProps {
@@ -55,16 +55,15 @@ const ShoppingBox: React.FC<IProps> = ({
                 <h3>{t('boxLabel')}</h3>
             </Row>
 
-            <Row>
+            <LabelRow>
                 <Column />
                 {columns.map((column, i) => (
                     <Column key={i}>
                         <h3>{column.label}</h3>
                     </Column>
-                ))}
-                <Column />
-                <Column />
-            </Row>
+                ))}{' '}
+                <Column /> <Column /> <Column />
+            </LabelRow>
 
             {productsInBox.map((product, i) => (
                 <Row key={i}>
@@ -89,18 +88,20 @@ const ShoppingBox: React.FC<IProps> = ({
                                 <IoAddSharp size={25} onClick={() => increase(product)} />
                             </HowerWrapper>
                         </Tippy>
+                    </Column>
+                    <Column>
                         <Tippy content={boxLessOfProduct}>
                             <HowerWrapper>
                                 <IoRemoveSharp size={25} onClick={() => decrease(product)} />
                             </HowerWrapper>
                         </Tippy>
-                        <Column>
-                            <Tippy content={boxRemoveProduct}>
-                                <HowerWrapper>
-                                    <IoClose size={25} onClick={() => remove} />
-                                </HowerWrapper>
-                            </Tippy>
-                        </Column>
+                    </Column>
+                    <Column>
+                        <Tippy content={boxRemoveProduct}>
+                            <HowerWrapper>
+                                <IoClose size={25} onClick={() => remove} />
+                            </HowerWrapper>
+                        </Tippy>
                     </Column>
                 </Row>
             ))}

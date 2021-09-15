@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components/macro'
 
 const GlobalStyle = createGlobalStyle`
  body {
@@ -7,6 +7,6 @@ const GlobalStyle = createGlobalStyle`
    font-family: sans-serif;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
-`;
+`
 
-export { GlobalStyle as default };
+export { GlobalStyle as default }
